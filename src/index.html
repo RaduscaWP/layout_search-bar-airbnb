@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <main class="main">
-    <form data-qa="big" class="search-form search-form--big">
-      <div class="search-form__icon"></div>
-      <input type="text" placeholder="Try &quot;Los Angeles&quot;" class="search-form__input" data-qa="keypress">
-    </form>
-    
-    <form data-qa="small" class="search-form search-form--small">
-      <div class="search-form__icon"></div>
-      <input type="text" placeholder="Try &quot;Los Angeles&quot;" class="search-form__input">
-    </form>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <form data-qa="big" class="search-form search-form--big">
+        <div class="search-form__icon"></div>
+        <input
+          type="text"
+          aria-label="Search"
+          placeholder="Try &quot;Los Angeles&quot;"
+          class="search-form__input"
+          data-qa="keypress"
+        />
+      </form>
+
+      <form data-qa="small" class="search-form search-form--small">
+        <div class="search-form__icon"></div>
+        <input
+          type="text"
+          aria-label="Search"
+          placeholder="Try &quot;Los Angeles&quot;"
+          class="search-form__input"
+        />
+      </form>
+    </main>
+  </body>
 </html>
