@@ -23,6 +23,15 @@ body {
   width: 100%;
 }
 
+.search--big {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search--small {
+  margin-top: 0;
+}
+
 .search__input {
   box-sizing: border-box;
   width: 100%;
@@ -63,20 +72,12 @@ body {
   line-height: 100%;
 }
 
-.search__input:hover {
+.search:hover .search__input {
   box-shadow: 0 1px 8px rgba(61, 78, 97, 0.1);
 }
 
-.search__input:focus {
+.search:focus-within .search__input {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-color: #b0b0b0;
   outline: none;
-}
-
-.search--big {
-  margin-top: 20px;
-}
-
-.search--small {
-  margin-top: 20px;
 }
